@@ -1,2 +1,4 @@
-# traffic-signal-control-framwork
+# traffic-signal-control-framework
 An efficient hybrid traffic signal control framework integrating Spatio-Temporal GAT with Coordinated and Independent DDQN and Fixed-Time fallback control for adaptive urban traffic management.
+
+Traffic Signal Control Framework is a SUMO-based research framework for adaptive traffic signal control in large urban networks. It uses a Spatio-Temporal Graph Attention Network (GAT) to learn the intersections and determine their interaction strength. Based on these interactions, strongly connected intersections are organized into coordination groups and controlled using Coordinated DDQN, while weakly interacting intersections use Independent DDQN. A Fixed-Time controller serves as a fallback when the RL controller is unavailable, providing a reliable control mechanism for normal operation and controller failure scenarios.
